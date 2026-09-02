@@ -22,6 +22,7 @@ const ThemeStyles = () => (
     [class~="from-gold/10"] { --tw-gradient-from: rgba(201,162,39,0.1); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(201,162,39,0)); }
 
     [class~="hover:bg-gold-light"]:hover { background-color: #E4C158; }
+    [class~="hover:text-gold-light"]:hover { color: #E4C158; }
     [class~="hover:border-gold"]:hover { border-color: #C9A227; }
     [class~="hover:text-gold"]:hover { color: #C9A227; }
     [class~="hover:border-gold/40"]:hover { border-color: rgba(201,162,39,0.4); }
@@ -81,67 +82,60 @@ const openWhatsApp = (source = 'unknown') => {
 const FILMSTRIP_WORK = [
   {
     title: '4M AQB', client: '4MATIC', category: 'Automotive',
-    challenge: '4MATIC needed a high-impact film to introduce the brand and make the vehicle feel as powerful on screen as it does on the road.',
-  approach: 'We built the film around dynamic driving sequences, controlled camera movement and detailed automotive shots, creating a premium visual that puts the car at the center of the story.',
-  result: '3.2x engagement.',
+    challenge: 'Luqma needed a launch film that could carry an entire paid-media push, not just play once at a launch event.',
+    approach: 'We built the concept and shot list around three cutdown lengths from a single shoot day, so paid social, YouTube pre-roll and in-store screens all came from one production.',
+    result: '3.2x engagement vs. their prior campaign — still their best-performing ad 6 months later.',
     videoUrl: '',
   },
   {
-  title: '4M AQB', client: '4MATIC', category: 'Automotive',
-  challenge: '4MATIC needed a high-impact film to introduce the brand and make the vehicle feel as powerful on screen as it does on the road.',
-  approach: 'We built the film around dynamic driving sequences, controlled camera movement and detailed automotive shots, creating a premium visual that puts the car at the center of the story.',
-  result: '3.2x engagement.',
-  videoUrl: '',
-},
-{
-  title: 'YA3', client: 'YUCK', category: 'Food Industry',
-  challenge: 'YUCK needed a campaign that could make the product instantly appealing while capturing the energy and personality behind the brand.',
-  approach: 'We created a fast-paced visual concept built around the food, movement and bold brand identity, combining product-focused shots with lifestyle moments designed for social-first content.',
-  result: 'Gained Over 70 New Customers.',
-  videoUrl: '',
-},
-{
-  title: 'TESLA CYPERTRUCK', client: '4MATIC', category: 'Automotive',
-  challenge: 'The Cybertruck needed to stand out as more than another vehicle showcase, with a visual treatment that matched its unconventional design.',
-  approach: 'We leaned into the Cybertruck’s futuristic shape and aggressive character, using cinematic compositions, controlled lighting and detailed exterior shots to make the vehicle the hero.',
-  result: '21 People Asked About the Car.',
-  videoUrl: '',
-},
-{
-  title: 'PANDA', client: 'SUSHIANA', category: 'Food Industry',
-  challenge: 'SUSHIANA needed a campaign that could turn a simple food product into a memorable visual experience and give the audience a reason to engage with it.',
-  approach: 'We focused on texture, movement and close-up food cinematography, building a playful sequence that makes the product feel fresh, satisfying and instantly recognizable.',
-  result: 'Gained Over 60 New Customers.',
-  videoUrl: '',
-},
-{
-  title: 'EL ALAMEN INVESTING STRATGIE', client: 'DEAL REALESTATE', category: 'Realestate',
-  challenge: 'DEAL REALESTATE needed to communicate the investment opportunity in El Alamein in a way that felt aspirational while still giving potential buyers a clear sense of the opportunity.',
-  approach: 'We combined cinematic property visuals with lifestyle-focused sequences, highlighting the destination, development and investment potential through a premium real-estate narrative.',
-  result: '+54% site traffic in launch week.',
-  videoUrl: '',
-},
-{
-  title: 'HYDE-PARK PROJECT', client: 'GREY COLLECTIVE', category: 'Realestate',
-  challenge: 'Grey Collective needed to present the Hyde Park project as a premium lifestyle destination rather than simply another real-estate development.',
-  approach: 'We built the film around the experience of living in the project, combining architectural details, surrounding spaces and lifestyle moments into one cohesive visual story.',
-  result: '+67% site traffic in launch week.',
-  videoUrl: '',
-},
-{
-  title: 'GARDEN RENOVATIONS', client: 'ELAZEZYA', category: 'Brand Anthem',
-  challenge: 'ELAZEZYA needed to showcase the transformation of outdoor spaces while communicating the craftsmanship and attention to detail behind every project.',
-  approach: 'We focused on the contrast between before and after, using cinematic shots of the finished spaces and carefully composed details to turn the renovation process into a visual brand story.',
-  result: '+41% site traffic in launch week.',
-  videoUrl: '',
-},
-{
-  title: 'البطاريه عندنا', client: 'VOLTEER', category: 'Commercial',
-  challenge: 'VOLTEER needed a commercial that could communicate its battery offering quickly while remaining memorable and entertaining enough to work across digital platforms.',
-  approach: 'We built the concept around a simple, recognizable idea and delivered it with fast pacing, product-focused shots and a strong commercial visual style designed to grab attention immediately.',
-  result: 'The first patch sold out in 9 days.',
-  videoUrl: '',
-},
+    title: 'YA3', client: 'YUCK', category: 'Food Industry',
+    challenge: 'A winter collection with a 2-week window to build hype before the drop.',
+    approach: 'We shot look-driven vignettes matched to NILAs release calendar, deliverable-ready for Stories, Reels and the site lookbook simultaneously.',
+    result: 'The collection sold out in 9 days.',
+    videoUrl: '',
+  },
+  {
+    title: 'TESLA CYPERTRUCK', client: '4MATIC', category: 'Automotive',
+    challenge: 'GG Cards wanted a single film that could define the brand for the next two years of marketing.',
+    approach: 'We pushed back on the initial brief and reframed it around the founders original story rather than a generic product showcase.',
+    result: 'Became the brands highest-viewed video to date.',
+    videoUrl: '',
+  },
+  {
+    title: 'PANDA', client: 'SUSHIANA', category: 'Food Industry',
+    challenge: 'Telling a sourcing story that builds trust without feeling like an ad.',
+    approach: 'A short-form documentary following the supply chain from farm to cup, shot over two days with minimal crew to keep it observational.',
+    result: 'Featured in 3 regional press outlets after release.',
+    videoUrl: '',
+  },
+  {
+    title: 'EL ALAMEN INVESTING STRATGIE', client: 'DEAL REALESTATE', category: 'Realestate',
+    challenge: 'A same-week recap film to keep momentum going into the next ticket release.',
+    approach: 'Multi-camera coverage on the night, rough cut delivered within 72 hours to ride the post-event conversation.',
+    result: 'Helped drive the next event to a sellout.',
+    videoUrl: '',
+  },
+  {
+    title: 'HYDE-PARK PROJECT', client: 'GREY COLLECTIVE', category: 'Realestate',
+    challenge: 'Launching a new running shoe with no existing brand footage to draw on.',
+    approach: 'Built the entire visual language from scratch — location, cast and grade — inside a single accelerated production window.',
+    result: '+41% site traffic in launch week.',
+    videoUrl: '',
+  },
+  {
+    title: 'GARDEN RENOVATIONS', client: 'ELAZEZYA', category: 'Brand Anthem',
+    challenge: 'Launching a new running shoe with no existing brand footage to draw on.',
+    approach: 'Built the entire visual language from scratch — location, cast and grade — inside a single accelerated production window.',
+    result: '+41% site traffic in launch week.',
+    videoUrl: '',
+  },
+  {
+    title: 'البطاريه عندنا', client: 'VOLTEER', category: 'Commercial',
+    challenge: 'Launching a new running shoe with no existing brand footage to draw on.',
+    approach: 'Built the entire visual language from scratch — location, cast and grade — inside a single accelerated production window.',
+    result: '+41% site traffic in launch week.',
+    videoUrl: '',
+  },
 ];
 
 const SERVICES = [
@@ -305,6 +299,42 @@ const MiniChart = ({ type }) => {
   );
 };
 
+// ─────────────────────────────────────────────
+// NAV — this component was missing from the pasted file, which is why
+// the site crashed with "Can't find variable: Nav". Re-added here.
+// ─────────────────────────────────────────────
+const Nav = ({ page, onNavigate, onCtaClick }) => {
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  return (
+    <div
+      className="fixed w-full z-50 transition-all duration-500 border-b border-white/5"
+      style={{ background: scrolled ? 'rgba(5,5,5,0.9)' : 'transparent', backdropFilter: scrolled ? 'blur(12px)' : 'none' }}
+    >
+      <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+        <button onClick={() => onNavigate('home')} className="font-display text-2xl tracking-tight text-white">AOQAB<span className="text-gold">.</span></button>
+        <div className="hidden md:flex items-center gap-8 text-[11px] font-bold uppercase tracking-[0.2em] text-white">
+          {NAV_ITEMS.map(item => (
+            <button
+              key={item.key}
+              onClick={() => onNavigate(item.key)}
+              className={`hover:text-gold transition-colors ${page === item.key ? 'text-gold' : ''}`}
+            >
+              {item.label}
+            </button>
+          ))}
+          <PrimaryButton onClick={() => onCtaClick('nav')} className="!py-2.5 !px-5">Book a Call</PrimaryButton>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const Hero = ({ onCtaClick, onWatchWork }) => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
     <div
@@ -404,7 +434,7 @@ const ClientLogosAndNews = ({ onViewNews }) => (
         <div className="space-y-3">
           {NEWS_ITEMS.slice(0, 2).map((n, i) => (
             <div key={i} className="border border-white/10 bg-black/40 p-4">
-              <p className="text-zinc-500 text-[10px] uppercase tracking-widest mb-1.5">{n.source} \u00b7 {n.date}</p>
+              <p className="text-zinc-500 text-[10px] uppercase tracking-widest mb-1.5">{n.source} · {n.date}</p>
               <p className="text-white text-sm font-bold leading-snug">{n.headline}</p>
             </div>
           ))}
